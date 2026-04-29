@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#080f1e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Contab IA" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+
+    <!-- SEO / Share -->
+    <meta name="description" content="Lance notas fiscais automaticamente com IA" />
+    <meta property="og:title" content="Contab IA" />
+    <meta property="og:description" content="Contabilidade inteligente com escaneamento de notas" />
+
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+    <title>Contab IA</title>
+
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: #080f1e; }
+      /* Esconde a barra de endereço no iOS ao rolar */
+      html { height: -webkit-fill-available; }
+      body { min-height: 100vh; min-height: -webkit-fill-available; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
